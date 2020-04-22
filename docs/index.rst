@@ -2,6 +2,11 @@
 .. |flir_setup| image:: images/flir_setup.jpg
 .. |AX8_1| image:: images/AX8_1.jpg
 
+.. Links
+.. |Flir Validity| raw:: html
+
+   <a href="../../fledge-filter-FlirValidity/index">Flir Validity</a>
+
 Flir AX8 Thermal Imaging Camera
 ===============================
 
@@ -24,3 +29,5 @@ The screen that appears is the configuration screen for the *FlirAX8* plugin.
 The important data to add here is the IP address of the camera, in the entry field labeled *Server Address* and the name of the asset to be created within Fledge.
 
 Once entered click on *Next*, enable the service on the next page and click on *Done*.
+
+This will create a single asset that contains values for all boxes and spots that may be define. A filter *fledge-filter-FlirValidity* can be added to the south service to remove data for boxes and spots not switched on in the camera user interface. See |Flir Validity|. This filter also allows you to name the boxes and hence have more meaningful names in the data points within the asset.
