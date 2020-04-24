@@ -5,7 +5,7 @@
 .. Links
 .. |Flir Validity| raw:: html
 
-   <a href="../fledge-filter-FlirValidity/index">Flir Validity</a>
+   <a href="../fledge-filter-FlirValidity/index.html">Flir Validity</a>
 
 Flir AX8 Thermal Imaging Camera
 ===============================
